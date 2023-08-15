@@ -1,0 +1,127 @@
+
+  /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
+.logo{
+  text-decoration: none;
+  font-size: 60px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 40px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+li.pointer{
+  cursor: pointer;
+}
+li:hover{
+  background-color: gainsboro;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: rgba(26, 61, 69, 0.778);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f15025;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 9px #666;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.cta-button:hover{
+  background-color: rgba(0, 0, 255, 0.264);
+}
+.cta-button:active{
+  background-color: rgba(0, 0, 255, 0.264);
+  box-shadow: 0 5px #666;
+  transform: translate(4px);
+}
+.featured-cakes {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cake-card {
+  margin: 20px;
+}
+
+.cake-card img {
+  max-width: 100%;
+  border-radius: 5px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.cake-card img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.cake-card h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.cake-card p {
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.icon{
+  padding: 5px;
+  width: 100px;
+  display: flex;
+}
